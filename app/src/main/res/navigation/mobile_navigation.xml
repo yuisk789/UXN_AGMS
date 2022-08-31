@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+            android:id="@+id/navigation_home"
+            android:name="kr.co.uxn.agms.android.ui.home.NewHomeFragment"
+            android:label="@string/title_home"
+            tools:layout="@layout/fragment_new_home" />
+
+    <fragment
+        android:id="@+id/navigation_self"
+        android:name="kr.co.uxn.agms.android.ui.self.SelfFragment"
+        android:label="@string/title_self"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_calibration"
+        android:name="kr.co.uxn.agms.android.ui.calibration.CalibrationFragment"
+        android:label="@string/title_input"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_range"
+        android:name="kr.co.uxn.agms.android.ui.range.RangeFragment"
+        android:label="@string/title_range"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="kr.co.uxn.agms.android.activity.signin.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+
+</navigation>

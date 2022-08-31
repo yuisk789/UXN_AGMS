@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v21/barcode_field_box.xml" value="0.239" />
+        <entry key="app/src/main/res/drawable/button_r4.xml" value="0.1765" />
+        <entry key="app/src/main/res/drawable/button_r4_56C79C.xml" value="0.1765" />
+        <entry key="app/src/main/res/drawable/button_r50.xml" value="0.108" />
+        <entry key="app/src/main/res/drawable/camera_flash.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/circle_active.xml" value="0.1765" />
+        <entry key="app/src/main/res/drawable/circle_disabled.xml" value="0.1765" />
+        <entry key="app/src/main/res/drawable/ic_baseline_bluetooth_24.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_close_vd_white_24.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/ic_flash_off_vd_white_24.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/ic_image_search_vd_black_24.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/ic_settings_vd_white_24.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/stroke_4dc091.xml" value="0.108" />
+        <entry key="app/src/main/res/drawable/stroke_4dc091_r6.xml" value="0.108" />
+        <entry key="app/src/main/res/drawable/stroke_56c79c.xml" value="0.108" />
+        <entry key="app/src/main/res/drawable/top_action_bar_scrim.xml" value="0.211" />
+        <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_connect.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_create_admin.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_create_patient.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_device.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_device_connect.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_device_list.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_disconnect_alarm.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/activity_example2.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_full_chart.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_launcher.xml" value="0.20833333333333334" />
+        <entry key="app/src/main/res/layout/activity_live_barcode.xml" value="0.190625" />
+        <entry key="app/src/main/res/layout/activity_loading.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.4088541666666667" />
+        <entry key="app/src/main/res/layout/activity_login_parent.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="app/src/main/res/layout/activity_main_medical.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_manual_input.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/activity_new_connect.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_new_login.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_new_warm_up.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/activity_viewpager2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_warm_up.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.1381340579710145" />
+        <entry key="app/src/main/res/layout/barcode_field.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/buy_with_googlepay_button.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/layout/camera_preview_overlay.xml" value="0.190625" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.11354166666666667" />
+        <entry key="app/src/main/res/layout/dialog_password.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_account_created.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_admin_setting.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_calibration.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_create_account.xml" value="0.1381340579710145" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_eula.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_event.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_home_old.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_input_base_info.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_intro1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_intro2.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/fragment_intro3.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1381340579710145" />
+        <entry key="app/src/main/res/layout/fragment_manual1.xml" value="0.1897644927536232" />
+        <entry key="app/src/main/res/layout/fragment_manual2.xml" value="0.1897644927536232" />
+        <entry key="app/src/main/res/layout/fragment_manual3.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/fragment_new_home.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_new_home_medical.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_new_range.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_new_setting.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_range.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.11354166666666667" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_setting_unit.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/fragment_term.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_device.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/sheet_number_picker.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/top_action_bar_in_live_camera.xml" value="0.190625" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1625" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.11354166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

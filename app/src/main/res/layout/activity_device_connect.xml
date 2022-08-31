@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_001B37"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context=".activity.device.DeviceConnectActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:text="장치 연결"
+        android:layout_marginTop="25dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/dummy_device_connect_title"
+        android:layout_marginTop="52dp"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:text="AGMS 센서는 블루투스를 통해 스마트폰과 연결됩니다."
+        android:layout_marginTop="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="48dp"
+        android:id="@+id/button_do_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/color_56C79C"
+        android:minHeight="50dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/dummy_manual_connect"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:cornerRadius="4dp" />
+    <ImageView
+        android:layout_marginTop="54dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/barcode_example" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="53dp"
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/color_56C79C"
+        android:minHeight="50dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="QR코드 인식"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:cornerRadius="4dp" />
+
+</LinearLayout>

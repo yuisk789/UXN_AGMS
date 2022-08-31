@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="kr.co.uxn.agms.android"
+    tools:ignore="CoarseFineLocation">
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <!-- Request legacy Bluetooth permissions on older devices. -->
+    <uses-permission android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="30" />
+
+    <!-- Include "neverForLocation" only if you can strongly assert that
+         your app never derives physical location from Bluetooth scan results. -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UXN_AGMS.NoActionBar"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="barcode" />
+        <activity
+            android:name=".activity.launcher.LoadingActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.UXN_AGMS.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.launcher.IntroActivity" />
+
+        <activity android:name=".activity.signin.LoginActivity" />
+        <activity android:name=".activity.signin.FindPasswordActivity" />
+        <activity android:name=".activity.signup.AccountRegisterActivity" />
+        <activity android:name=".activity.signup.FirstSettingActivity" />
+        <activity android:name=".activity.signup.ManualActivity" />
+        <activity android:name=".activity.signup.SignupActivity" />
+        <activity android:name=".activity.signup.TermsActivity" />
+
+        <activity android:name=".activity.device.DeviceConnectActivity" />
+
+        <activity android:name=".activity.signup.WelcomeActivity" />
+        <activity android:name=".activity.device.ManualInputActivity" />
+
+        <activity android:name=".ui.connect.WarmupActivity" />
+        <activity android:name=".activity.device.DeviceListActivity" />
+
+        <activity android:name=".MainActivity" />
+        <activity
+
+            android:theme="@style/Theme.Material3.Dark.NoActionBar"
+            android:name="com.google.mlkit.md.LiveBarcodeScanningActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service android:name=".service.BluetoothService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".service.AlarmBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="kr.co.ux.agms.android.alarm" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

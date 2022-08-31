@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_001B37"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/title_setting"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/wrap_unit"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:text="@string/text_unit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/value_unit"
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:textSize="17sp"
+            android:textColor="@color/color_56C79C"
+            android:text="@string/default_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrap_target"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:text="@string/text_target"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:id="@+id/target_value"
+            android:textSize="17sp"
+            android:textColor="@color/color_56C79C"
+            android:text="@string/default_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wrap_alarm"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:text="@string/text_alarm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:id="@+id/alarm_value"
+            android:textSize="17sp"
+            android:textColor="@color/color_56C79C"
+            android:text="@string/default_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="238dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:cornerRadius="4dp"
+        android:minHeight="50dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:backgroundTint="@color/color_56C79C"
+        android:textColor="@color/white"
+        android:id="@+id/button_complete"
+        android:text="@string/button_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

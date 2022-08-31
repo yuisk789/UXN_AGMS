@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_001B37"
+    android:orientation="vertical">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/intro_background_3"
+        android:id="@+id/background_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/wrap_dots"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:layout_marginRight="@dimen/dot_padding"
+            android:src="@drawable/circle_disabled"
+            android:layout_width="@dimen/dot_size"
+            android:layout_height="@dimen/dot_size" />
+        <ImageView
+            android:layout_marginRight="@dimen/dot_padding"
+            android:src="@drawable/circle_disabled"
+            android:layout_width="@dimen/dot_size"
+            android:layout_height="@dimen/dot_size" />
+        <ImageView
+
+            android:src="@drawable/circle_active"
+            android:layout_width="@dimen/dot_size"
+            android:layout_height="@dimen/dot_size" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/wrap_dots"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="51dp"
+        android:backgroundTint="@color/color_56C79C"
+        android:minHeight="44dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="11dp"
+        android:text="@string/button_start"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/intro_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/start_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:gravity="center"
+        android:text="@string/intro3_description"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/app_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/intro_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="@string/title_glucose_analysis"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

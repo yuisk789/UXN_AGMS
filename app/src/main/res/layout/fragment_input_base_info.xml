@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@color/loading_background">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="@string/base_info_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textPersonName"
+        android:hint="@string/text_name"
+        android:paddingLeft="15dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingRight="15dp"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/color_4DC091"
+        android:background="@drawable/stroke_4dc091_r6"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none"
+        android:hint="@string/text_gender"
+        android:paddingLeft="15dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingRight="15dp"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/color_4DC091"
+        android:background="@drawable/stroke_4dc091_r6"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edit_text_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none"
+        android:hint="@string/text_birth_date"
+        android:paddingLeft="15dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingRight="15dp"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/color_4DC091"
+        android:background="@drawable/stroke_4dc091_r6"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edit_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="120dp"
+        android:textSize="17sp"
+        android:paddingTop="12dp"
+        android:paddingBottom="13dp"
+        android:backgroundTint="@color/default_button_tint_color"
+        android:textColor="@color/white"
+        android:id="@+id/button_do_next"
+        android:text="@string/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
